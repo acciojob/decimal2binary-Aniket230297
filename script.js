@@ -1,9 +1,9 @@
-function threeSum(arr, target) {
+function threeSum(nums, target) {
 // write your code 
 	
  
-let binaryNumber = arr.toString(2);
-	return binaryNumber;
+let target = nums.toString(2);
+	return target;
   
 }
 
