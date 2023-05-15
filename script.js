@@ -9,4 +9,4 @@ function DecimalToBinary(num) {
   return binary;
 }
 
-console.log(DecimalToBinary(num));
+console.log(DecimalToBinary(7));
