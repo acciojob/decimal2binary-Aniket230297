@@ -1,10 +1,12 @@
-function threeSum(nums, target) {
-// write your code 
-	
- 
-let target = nums.toString(2);
-	return target;
+function DecimalToBinary(num) {
+  let binary = '';
   
+  while(num > 0) {
+    binary = (num % 2) + binary;
+    num = Math.floor(num / 2);
+  }
+  
+  return binary;
 }
 
-module.exports = threeSum;
+console.log(DecimalToBinary(25));
