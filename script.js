@@ -2,7 +2,7 @@
     return num.toString(2);
  }
 
- let result=(DecimalToBinary(7));
+ let result=(DecimalToBinary(num));
 console.log(result);
 
 
