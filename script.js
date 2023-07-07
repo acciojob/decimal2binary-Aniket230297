@@ -1,9 +1,5 @@
- function DecimalToBinary(num) {
-    return num.toString(2);
- }
+function decimalToBinary(num) {
+  // Write your code here
+}
 
- let result=(DecimalToBinary(num));
-console.log(result);
-
-
-  
+window.decimalToBinary = decimalToBinary;
